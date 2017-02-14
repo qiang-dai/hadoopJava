@@ -12,15 +12,15 @@ export CLASSPATH=$($HADOOP_HOME/bin/hadoop classpath):$CLASSPAT
 /usr/local/Cellar/hadoop/2.7.3/sbin/start-yarn.sh
 ```
 三、编写java程序：
-  - (略)
+  - (略)<br />
 四、用 Intellij 进行编译打包：
-  - (略)
+  - (略)<br />
 五、执行hadoop命令：
 ```
 hadoop jar WordCount.jar org.apache.hadoop.examples.WordCount input output
 ```
 六、查看结果：
- - (略)
+ - (略)<br />
 
 # 配置hadoop监控环境（伪分布式）
 [搭建链接](http://www.powerxing.com/install-hadoop/)
